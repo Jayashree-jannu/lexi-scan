@@ -3,12 +3,10 @@ import sys
 import subprocess
 import time
 
-
 def print_header(text):
     print("\n" + "="*70)
     print(f"  {text}")
     print("="*70)
-
 
 def check_python_version():
     print_header("CHECKING PYTHON VERSION")

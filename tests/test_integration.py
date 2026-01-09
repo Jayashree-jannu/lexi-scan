@@ -8,7 +8,6 @@ from src.postprocessing.rule_engine import apply_rules, deduplicate_entities
 
 
 class TestEndToEndPipeline(unittest.TestCase):
-    
     def test_complete_contract_extraction(self):
         raw_entities = [
             ("15/01/2024", "EFFECTIVE_DATE"),
